@@ -1,0 +1,2 @@
+Summary for /www/javadecompilers/app/public/data/24.07.21/4f8eb6475911f2cb33659e281ba72a02/TheWorldItems2-1.4.1.jar
+Decompiled with CFR 0.150

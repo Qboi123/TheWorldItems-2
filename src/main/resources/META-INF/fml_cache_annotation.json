@@ -1,0 +1,103 @@
+{
+  "mod/mcreator/mcreator_chatForFirst$CustomAdvancementTrigger": {
+    "name": "mod/mcreator/mcreator_chatForFirst$CustomAdvancementTrigger",
+    "interfaces": [
+      "net/minecraft/advancements/ICriterionTrigger"
+    ]
+  },
+  "mod/mcreator/mcreator_cmdChangeDimension$CommandHandler": {
+    "name": "mod/mcreator/mcreator_cmdChangeDimension$CommandHandler",
+    "interfaces": [
+      "net/minecraft/command/ICommand"
+    ]
+  },
+  "mod/mcreator/mcreator_cmdExplode$CommandHandler": {
+    "name": "mod/mcreator/mcreator_cmdExplode$CommandHandler",
+    "interfaces": [
+      "net/minecraft/command/ICommand"
+    ]
+  },
+  "mod/mcreator/mcreator_cmdLightning$CommandHandler": {
+    "name": "mod/mcreator/mcreator_cmdLightning$CommandHandler",
+    "interfaces": [
+      "net/minecraft/command/ICommand"
+    ]
+  },
+  "mod/mcreator/mcreator_letsChatEvent": {
+    "name": "mod/mcreator/mcreator_letsChatEvent",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onChat(Lnet/minecraftforge/event/ServerChatEvent;)V"
+      }
+    ]
+  },
+  "mod/mcreator/theworlditems2": {
+    "name": "mod/mcreator/theworlditems2",
+    "interfaces": [
+      "net/minecraftforge/fml/common/IFuelHandler",
+      "net/minecraftforge/fml/common/IWorldGenerator"
+    ],
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod;",
+        "target": "mod/mcreator/theworlditems2",
+        "values": {
+          "acceptedMinecraftVersions": {
+            "value": "[1.12.2]"
+          },
+          "modid": {
+            "value": "theworlditems2"
+          },
+          "version": {
+            "value": "1.4.1"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/SidedProxy;",
+        "target": "proxy",
+        "values": {
+          "clientSide": {
+            "value": "mod.mcreator.ClientProxytheworlditems2"
+          },
+          "serverSide": {
+            "value": "mod.mcreator.CommonProxytheworlditems2"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$Instance;",
+        "target": "instance",
+        "value": {
+          "value": "theworlditems2"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "load(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "serverLoad(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V"
+      }
+    ]
+  },
+  "mod/mcreator/theworlditems2$GuiHandler": {
+    "name": "mod/mcreator/theworlditems2$GuiHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/IGuiHandler"
+    ]
+  }
+}

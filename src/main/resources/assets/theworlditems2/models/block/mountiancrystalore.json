@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "up": "blocks/0",
+    "down": "blocks/mountian_crystalore",
+    "north": "blocks/0",
+    "east": "blocks/0",
+    "south": "blocks/0",
+    "west": "blocks/0",
+    "particle": "blocks/mountian_crystalore"
+  }
+}

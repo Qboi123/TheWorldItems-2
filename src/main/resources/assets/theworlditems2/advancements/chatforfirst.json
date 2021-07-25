@@ -1,0 +1,20 @@
+{
+  "display": {
+    "background": "minecraft:textures/blocks/stone.png",
+    "icon": {
+      "item": "minecraft:sign"
+    },
+    "title": {
+      "translate": "advancements.chatforfirst.title"
+    },
+    "description": {
+      "translate": "advancements.chatforfirst.descr"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "chatforfirst": {
+      "trigger": "chatforfirst"
+    }
+  }
+}
